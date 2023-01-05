@@ -29,7 +29,7 @@ def readlines(fname):
     return open(path.join(path.dirname(__file__), fname)).readlines()
 
 setup(
-    name='formic-py3',
+    name='formic',
     version=read(path.join("formic", "VERSION.txt")),
     description='An implementation of Apache Ant FileSet and Globs',
     long_description=read("README.rst"),
